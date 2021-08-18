@@ -21,7 +21,7 @@ public class SegundaActivity extends AppCompatActivity {
         String name = intent.getStringExtra("name");
 
         if ( name != null ) {
-            tTextView.setText("Seja muito bem Vindo " + name);
+            tTextView.setText("Olá\n\nn" + name + "\n\nSeja bem Vindo ");
         }
     }
 }
